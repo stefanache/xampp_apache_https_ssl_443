@@ -69,7 +69,9 @@ So track the following 10 steps into this manually procedure:
                                    https://site.test
                Now you must to see the content
                                    site test port 443
- That is all!                                   
-                                    
+ That is all!
+ 
+ Remark: The name for locally site is arbitrary(randomly)  you can take other like site.dev or other any!
+         But must to change all use this new name in this procedure and in all files used!
 </pre> 
 

@@ -45,7 +45,14 @@ So track the following steps into this procedure:
                                     C:\Windows\System32\drivers\etc\hosts
                and append(add) this new line:
                                     127.0.0.1 site.test
-                                    
+            6. Create subdirectory site_test_80 in  c:\xampp\htdocs\   directory and put the file 
+               c:\xampp\htdocs\site_test_80\index.file with content 
+                                    site test port 80
+            7. Create subdirectory site_test_443 in  c:\xampp\htdocs\   directory and put the file 
+               c:\xampp\htdocs\site_test_443\index.file with content 
+                                    site test port443
+            8. download and copy content from file httpd-xampp.conf and add/append this content 
+               at the bottom of file  C:\xampp\apache\conf\extra\httpd-xampp.conf                              
                                     
 </pre> 
 

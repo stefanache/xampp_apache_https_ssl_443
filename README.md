@@ -11,11 +11,10 @@ My webserver apache work on my localhost at port 8081 so in browser can be calle
 http://localhost:8081 and the www-root directory is c:\xampp\htdocs
 So track the following steps into this procedure:
             1. create one subdirectory crt in directory C:\xampp\apache
-               The result will be 
+               The result will be the directory
                                  C:\xampp\apache\crt
-            2. Download the both files and copy in C:\xampp\apache\crt\ directory
-                                 cert.conf
-                                 makecert.bat
+            2. Download the both files(cert.conf, makecert.bat) from my github repository
+               and copy in this new C:\xampp\apache\crt\ directory,
                therefore will be 2 files as result:
                                  C:\xampp\apache\crt\cert.conf
                                  C:\xampp\apache\crt\makecert.bat

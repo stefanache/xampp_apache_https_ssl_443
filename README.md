@@ -9,7 +9,7 @@ I want to give one guide of creating the url like https://site.test , if already
 the xampp  on windows 10.The my xampp is installed on c:\xampp and have control-panel.
 My webserver apache work on my localhost at port 8081 so in browser can be called with 
 http://localhost:8081 and the www-root directory is c:\xampp\htdocs.
-So track the following steps into this procedure:
+So track the following 10 steps into this manually procedure:
             1. create one subdirectory crt in directory C:\xampp\apache
                The result will be the directory
                                  C:\xampp\apache\crt
@@ -45,20 +45,31 @@ So track the following steps into this procedure:
                                     C:\Windows\System32\drivers\etc\hosts
                and append(add) this new line:
                                     127.0.0.1 site.test
+               check in browser to see if work this:
+                                    http://site.test
+               You must to see same you put in browser the address(URL)
+                                   http://localhost
+               Remark: in my case is http://site.test:8081 or http://localhost:8081                    
             6. Create subdirectory site_test_80 in  c:\xampp\htdocs\   directory and put the file 
                                     c:\xampp\htdocs\site_test_80\index.file 
                with content 
-                                    site test port 80
+                                    site test port  80
             7. Create subdirectory site_test_443 in  c:\xampp\htdocs\   directory and put the file 
                                     c:\xampp\htdocs\site_test_443\index.file 
                with content 
-                                    site test port443
+                                    site test port 443
             8. download from my github repository and copy content from file httpd-xampp.conf and 
                add/append this content at the bottom of file  
                                     C:\xampp\apache\conf\extra\httpd-xampp.conf
             9. restart the apache httpd server from xampp control panel 
                                     stop apache
                                     start apache
+           10. check in the browser:
+                                   restart the browser and put the following address(URL):
+                                   https://site.test
+               Now you must to see the content
+                                   site test port 443
+ That is all!                                   
                                     
 </pre> 
 

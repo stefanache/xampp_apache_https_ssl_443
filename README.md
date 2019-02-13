@@ -55,6 +55,10 @@ So track the following steps into this procedure:
                                     site test port443
             8. download from my github repository and copy content from file httpd-xampp.conf and 
                add/append this content at the bottom of file  
-                                    C:\xampp\apache\conf\extra\httpd-xampp.conf                                                                  
+                                    C:\xampp\apache\conf\extra\httpd-xampp.conf
+            9. restart the apache httpd server from xampp control panel 
+                                    stop apache
+                                    start apache
+                                    
 </pre> 
 

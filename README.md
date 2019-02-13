@@ -2,14 +2,14 @@
             How to Create Valid https(SSL protocol on port 443) in localhost for XAMPP / Windows 10
 </h3>
 <pre>
-In the past I seen 2 very interesting links:
+In the past I seen two very interesting tutorials:
             https://shellcreeper.com/how-to-create-valid-ssl-in-localhost-for-xampp/
             https://florianbrinkmann.com/en/4215/https-virtual-hosts-xampp/
 I want to reduce the work to create the url like https://site.test  if already have installed
 the xampp  on windows 10.The my xampp is installed on c:\xampp and have control-panel.
 My webserver apache work on my localhost at port 8081 so in browser can be called with 
 http://localhost:8081 and the www-root directory is c:\xampp\htdocs
-So track the following steps:
+So track the following steps into this procedure:
             1. create one subdirectory crt in directory C:\xampp\apache
                The result will be 
                                  C:\xampp\apache\crt
@@ -28,5 +28,20 @@ So track the following steps:
                                  c:\xampp\apache\crt\site.test\server.key
                  -Digital autosigned certificate:
                                  c:\xampp\apache\crt\site.test\server.crt
-</pre>
+            4. Go and click on this certificate  c:\xampp\apache\crt\site.test\server.crt
+               and install for windows(so and for browsers) this certificate(wich contain public key)
+               -click on button 
+                                                Install certificate                                 
+               -select the option
+                                                Locale amchine
+                and then click on the button    Next 
+               -select the option               Place all certificate in the following store
+                and then click on the button    Browse
+               -select the option
+                                                Trusted Root Certification Authorities
+                and then click on the button    OK
+                and then click on the button    Next
+                and finally click on the button Finish
+                
+</pre> 
 

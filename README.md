@@ -11,8 +11,17 @@ My webserver apache work on my localhost at port 8081 so in browser can be calle
 http://localhost:8081 and the www-root directory is c:\xampp\htdocs
 So track the following steps:
             1. create one subdirectory crt in directory C:\xampp\apache
-               The result will be C:\xampp\apache\crt
-            2. Create file C:\xampp\apache\crt\cert.conf
+               The result will be 
+                                 C:\xampp\apache\crt
+            2. Download the both files and copy in C:\xampp\apache\crt\ directory
+                                 cert.conf
+                                 makecert.bat
+               therefore result 2 files
+                                 C:\xampp\apache\crt\cert.conf
+                                 C:\xampp\apache\crt\makecert.bat
+            3. Run macert.bat and put at first question the response:
+                                 site.test
+               and the rest accept all
             
 </pre>
 

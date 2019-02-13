@@ -13,7 +13,7 @@ So track the following steps into this procedure:
             1. create one subdirectory crt in directory C:\xampp\apache
                The result will be the directory
                                  C:\xampp\apache\crt
-            2. Download the first two files(cert.conf, makecert.bat) from my github repository
+            2. Download the files cert.conf, makecert.bat from my github repository
                and copy in this new C:\xampp\apache\crt\ directory,
                therefore will be 2 files as result:
                                  C:\xampp\apache\crt\cert.conf
@@ -46,13 +46,15 @@ So track the following steps into this procedure:
                and append(add) this new line:
                                     127.0.0.1 site.test
             6. Create subdirectory site_test_80 in  c:\xampp\htdocs\   directory and put the file 
-               c:\xampp\htdocs\site_test_80\index.file with content 
+                                    c:\xampp\htdocs\site_test_80\index.file 
+               with content 
                                     site test port 80
             7. Create subdirectory site_test_443 in  c:\xampp\htdocs\   directory and put the file 
-               c:\xampp\htdocs\site_test_443\index.file with content 
+                                    c:\xampp\htdocs\site_test_443\index.file 
+               with content 
                                     site test port443
-            8. download and copy content from file httpd-xampp.conf and add/append this content 
-               at the bottom of file  C:\xampp\apache\conf\extra\httpd-xampp.conf                              
-                                    
+            8. download from my github repository and copy content from file httpd-xampp.conf and 
+               add/append this content at the bottom of file  
+                                    C:\xampp\apache\conf\extra\httpd-xampp.conf                                                                  
 </pre> 
 

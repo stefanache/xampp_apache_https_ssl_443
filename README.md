@@ -64,16 +64,16 @@ So track the following 10 steps into this manually procedure:
             9. restart the apache httpd server from xampp control panel 
                                     stop apache
                                     start apache
-           10. check in the browser:
-                                   restart the browser and put the following address(URL):
+           10. check in the browser the https URL:
+               -restart the your browser before at all and put the following address(URL):
                                    https://site.test
-               Now you must to see the content
+                Now you must to see the content
                                    site-test port 443
-               Also you can verify if work and the older URLs
+               -Also you can verify if work and the older URLs
                                    http://site.test       (http://site.test:8081 in my case)
                                    http://localhost       (http://localhost:8081 in my case)
  That is all!
- 
+   
  Remark: The name for locally site is arbitrary(randomly)  you can take other like site.dev or other any!
          But must to change all use this new name in this procedure and in all files used!
 </pre> 

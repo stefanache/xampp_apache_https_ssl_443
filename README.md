@@ -21,7 +21,12 @@ So track the following steps:
                                  C:\xampp\apache\crt\makecert.bat
             3. Run macert.bat and put at first question the response:
                                  site.test
-               and the rest accept all
-            
+               and the rest accept all.
+               The result will be one subdirecory site.test and in this c:\xampp\apache\crt\site.test\
+               will be 2 files(server.key,server.crt): 
+                 -RSA private key:
+                                 c:\xampp\apache\crt\site.test\server.key
+                 -Digital autosigned certificate:
+                                 c:\xampp\apache\crt\site.test\server.crt
 </pre>
 

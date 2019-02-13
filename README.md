@@ -53,11 +53,11 @@ So track the following 10 steps into this manually procedure:
             6. Create subdirectory site_test_80 in  c:\xampp\htdocs\   directory and put the file 
                                     c:\xampp\htdocs\site_test_80\index.file 
                with content 
-                                    site test port  80
+                                    site-test port  80
             7. Create subdirectory site_test_443 in  c:\xampp\htdocs\   directory and put the file 
                                     c:\xampp\htdocs\site_test_443\index.file 
                with content 
-                                    site test port 443
+                                    site-test port 443
             8. download from my github repository and copy content from file httpd-xampp.conf and 
                add/append this content at the bottom of file  
                                     C:\xampp\apache\conf\extra\httpd-xampp.conf
@@ -68,10 +68,14 @@ So track the following 10 steps into this manually procedure:
                                    restart the browser and put the following address(URL):
                                    https://site.test
                Now you must to see the content
-                                   site test port 443
+                                   site-test port 443
+               Also you can verify if work and the older URLs
+                                   http://site.test       (http://site.test:8081 in my case)
+                                   http://localhost       (http://localhost:8081 in my case)
  That is all!
  
  Remark: The name for locally site is arbitrary(randomly)  you can take other like site.dev or other any!
          But must to change all use this new name in this procedure and in all files used!
 </pre> 
+
 

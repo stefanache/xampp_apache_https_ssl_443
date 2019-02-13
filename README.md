@@ -16,14 +16,14 @@ So track the following steps:
             2. Download the both files and copy in C:\xampp\apache\crt\ directory
                                  cert.conf
                                  makecert.bat
-               therefore result 2 files
+               therefore will be 2 files as result:
                                  C:\xampp\apache\crt\cert.conf
                                  C:\xampp\apache\crt\makecert.bat
             3. Run macert.bat and put at first question the response:
                                  site.test
                and the rest accept all.
                The result will be one subdirecory site.test and in this c:\xampp\apache\crt\site.test\
-               will be 2 files(server.key,server.crt): 
+               will be 2 files(server.key,server.crt) as result: 
                  -RSA private key:
                                  c:\xampp\apache\crt\site.test\server.key
                  -Digital autosigned certificate:

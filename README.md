@@ -27,7 +27,7 @@ So track the following 10 steps into this manually procedure:
                will be 2 files(server.key,server.crt) as result: 
                  -RSA private key:
                                  c:\xampp\apache\crt\site.test\server.key
-                 -Digital autosigned certificate:
+                 -Digital self-signed certificate:
                                  c:\xampp\apache\crt\site.test\server.crt
             4. Go and click on this certificate  c:\xampp\apache\crt\site.test\server.crt
                and install for windows(so and for browsers) this certificate(wich contain public key)

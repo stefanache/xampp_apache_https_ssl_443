@@ -26,9 +26,11 @@ So track the following 10 steps into this manually procedure:
                and the rest accept all.
                The result will be one subdirecory site.test and in this c:\xampp\apache\crt\site.test\
                will be 2 files(server.key,server.crt) as result: 
-                 -RSA private key:
+                 -RSA private-key(private-key used for writting/encryption+sign to sending the message):
                                  c:\xampp\apache\crt\site.test\server.key
-                 -Digital self-signed certificate:
+                 -Digital self-signed certificate
+                 (certificate which contain public-key used at receiving for reading/decryption message, 
+                  after verification/validation of the certificate):
                                  c:\xampp\apache\crt\site.test\server.crt
             4. Go and click on this certificate  c:\xampp\apache\crt\site.test\server.crt
                and install for windows(so and for browsers) this certificate(wich contain public key)

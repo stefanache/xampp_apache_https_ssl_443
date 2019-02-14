@@ -5,6 +5,7 @@
 In the past I seen two very interesting tutorials:
             https://shellcreeper.com/how-to-create-valid-ssl-in-localhost-for-xampp/
             https://florianbrinkmann.com/en/4215/https-virtual-hosts-xampp/
+            https://www.slideshare.net/jcleblanc/php-identity-and-data-security
 <br/>            
 I want to give one guide of creating the url like https://site.test , if already have installed
 the xampp  on windows 10.The my xampp is installed on c:\xampp and have control-panel.

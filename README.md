@@ -5,6 +5,7 @@
 In the past I seen two very interesting tutorials:
             https://shellcreeper.com/how-to-create-valid-ssl-in-localhost-for-xampp/
             https://florianbrinkmann.com/en/4215/https-virtual-hosts-xampp/
+but exist and others tutorials linked of this X.509 subject  like:          
             https://www.slideshare.net/jcleblanc/php-identity-and-data-security
             https://www.devdungeon.com/content/creating-self-signed-ssl-certificates-openssl
 <br/>            

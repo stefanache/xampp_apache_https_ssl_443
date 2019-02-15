@@ -28,7 +28,7 @@ So track the following 10 steps into this manually procedure:
                will be 2 files(server.key,server.crt) as result: 
                  -RSA private-key(private-key used for writting/encryption+sign to sending the message):
                                  c:\xampp\apache\crt\site.test\server.key
-                 -Digital self-signed certificate
+                 -Digital auto-signed or self-signed certificate:
                  (certificate which contain public-key used at receiving for reading/decryption message, 
                   after verification/validation of the certificate):
                                  c:\xampp\apache\crt\site.test\server.crt

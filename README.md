@@ -5,9 +5,11 @@
 In the past I seen two very interesting tutorials:
             https://shellcreeper.com/how-to-create-valid-ssl-in-localhost-for-xampp/
             https://florianbrinkmann.com/en/4215/https-virtual-hosts-xampp/
-but exist and others tutorials linked of this X.509 subject  like:          
+but exist and others tutorials linked of this X.509 subject  like:
+            https://en.wikipedia.org/wiki/Public_key_infrastructure
             https://www.slideshare.net/jcleblanc/php-identity-and-data-security
             https://www.devdungeon.com/content/creating-self-signed-ssl-certificates-openssl
+            http://www.steves-internet-guide.com/mosquitto-tls/
 <br/>            
 I want to give one guide of creating the url like https://site.test , if already have installed
 the xampp  on windows 10.The my xampp is installed on c:\xampp and have control-panel.

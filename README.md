@@ -72,11 +72,11 @@ So track the following 10 steps into this manually procedure:
                                     stop apache
                                     start apache
            10. check in the browser the https URL:
-               -restart the your browser before at all and put the following address(URL):
+               -restart the your browser before at all and put the following address(https URL):
                                    https://site.test
                 Now you must to see the content
                                    site-test port 443
-               -Also you can verify if work and the older URLs
+               -Also you can verify if work and the older URLs(http based):
                                    http://site.test       (http://site.test:8081 in my case)
                                    http://localhost       (http://localhost:8081 in my case)
  That is all!
